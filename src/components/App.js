@@ -17,7 +17,7 @@ class App extends Component {
         q: term
       }
     });
-    console.log(response);
+
     this.setState({
       videos: response.data.items,
       selectedVideo: response.data.items[0]
